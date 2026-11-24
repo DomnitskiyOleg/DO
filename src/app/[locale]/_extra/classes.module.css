@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    right: 0px !important;
+}
+
+.phone {
+    font-size: 12px;
+    @media (min-width: $mantine-breakpoint-lg) {
+        font-size: 14px;
+    }
+}

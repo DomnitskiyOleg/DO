@@ -1,0 +1,7 @@
+.navigationItem {
+    font-size: var(--mantine-font-size-md);
+
+    @media (min-width: $mantine-breakpoint-xl) {
+        font-size: var(--mantine-font-size-lg);
+    }
+}

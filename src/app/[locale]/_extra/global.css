@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/inter-latin.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: block;
+    unicode-range: U+0000-00FF;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/inter-cyrillic.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: block;
+    unicode-range: U+0400-04FF;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('/fonts/geologica-latin.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: block;
+    unicode-range: U+0000-00FF;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('/fonts/geologica-cyrillic.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: block;
+    unicode-range: U+0400-04FF;
+}
+
+html,
+body {
+    display: block;
+
+    font-family: Inter, sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Geologica, sans-serif !important;
+}
+[id] {
+    scroll-margin-top: 60px;
+}
+
+#hero {
+    scroll-margin-top: 999px;
+}
+
+#header {
+    right: 0px !important;
+}

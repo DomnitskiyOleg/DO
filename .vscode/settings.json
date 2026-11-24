@@ -1,0 +1,15 @@
+{
+    "i18n-ally.localesPaths": "src/messages",
+    "i18n-ally.enabledFrameworks": ["react", "custom"],
+    "i18n-ally.namespace": false,
+    "i18n-ally.pathMatcher": "{locale}.json",
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.displayLanguage": "ru",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "off",
+    "editor.formatOnSave": true,
+    "prettier.requireConfig": true,
+    "i18n-ally.extract.autoDetect": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "css.validate": false
+}

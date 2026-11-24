@@ -1,0 +1,56 @@
+.title {
+    font-size: 22px;
+    @media (min-width: $mantine-breakpoint-md) {
+        font-size: 36px;
+    }
+    @media (min-width: $mantine-breakpoint-xl) {
+        font-size: 48px;
+    }
+}
+
+.question {
+    font-size: 18px;
+    font-weight: 500;
+
+    @media (min-width: $mantine-breakpoint-sm) {
+        font-size: 24px;
+    }
+
+    @media (min-width: $mantine-breakpoint-xl) {
+        font-size: 26px;
+    }
+}
+
+.answer {
+    font-size: 16px;
+
+    @media (min-width: $mantine-breakpoint-sm) {
+        font-size: 20px;
+    }
+
+    @media (min-width: $mantine-breakpoint-xl) {
+        font-size: 22px;
+    }
+}
+
+.answer a {
+    text-decoration: none;
+    color: var(--mantine-color-brand-4);
+}
+
+.badge {
+    transition: background-color 0.4s ease;
+    cursor: pointer;
+}
+
+.badgeText {
+    font-size: 16px;
+    font-weight: 500;
+    @media (min-width: $mantine-breakpoint-sm) {
+        font-size: 20px;
+    }
+
+    @media (min-width: $mantine-breakpoint-xl) {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,13 @@
+.text {
+    font-size: 14px;
+    @media (min-width: $mantine-breakpoint-md) {
+        font-size: 16px;
+    }
+    @media (min-width: $mantine-breakpoint-xl) {
+        font-size: 18px;
+    }
+}
+
+.footer {
+    background: linear-gradient(45deg, var(--mantine-color-brand-8) 0%, var(--mantine-color-brand-9) 100%);
+}
